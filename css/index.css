@@ -233,12 +233,31 @@ button{
     margin-top: 15px;
 }
 
-/*Bottom content section */
+/* Contact us page */
 
+.contact-img{
+    height: 150px;
+}
 
+.input-box{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px dotted gray;
 
+}
 
+form {
+    border: 2px solid gray;
+    padding: 60px;
+    background-color: #F1F1F1;
+    text-align: center;
+}
 
+form input{
+    margin: 20px 0;
+}
 
 
 
