@@ -66,6 +66,34 @@ p {
     line-height: 1.4;
 }
 
+
+
+/*Nav Menu*/
+
+nav a{
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  height: 60px;
+  display: flex;
+  justify-content:space-between;
+  align-items: flex-end;
+}
+
+nav a:hover{
+ color: red;
+}
+
+/*Main image banner*/
+#mainimg {
+    margin: 30px 0;
+}
+
+
+
+
 .container {
     width: 800px;
     margin: 0 auto;
