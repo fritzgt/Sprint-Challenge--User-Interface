@@ -199,6 +199,21 @@ nav a:hover{
     padding-right: 0;
 }
 
+
+/*About page styling*/
+
+.top-about{
+    margin: 20px;
+}
+
+
+
+
+
+
+
+/*Footer*/
+
 footer {
     width: 100%;
     background: black;
