@@ -66,6 +66,32 @@ p {
     line-height: 1.4;
 }
 
+
+
+/*Nav Menu*/
+
+nav a{
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  height: 60px;
+  display: flex;
+  justify-content:space-between;
+  align-items: flex-end;
+}
+
+nav a:hover{
+ color: red;
+}
+
+/*Main image banner*/
+#mainimg {
+    margin: 30px 0;
+}
+
+/*Content*/
 .container {
     width: 800px;
     margin: 0 auto;
@@ -112,6 +138,53 @@ p {
     justify-content: center;
 }
 
+/*Coloring boxes*/
+
+
+#box1{
+ background-color: teal;
+}
+
+#box2{
+ background-color: gold;
+}
+
+#box3{
+ background-color: cadetblue;
+}
+
+#box4{
+ background-color: coral;
+}
+
+#box5{
+ background-color: crimson;
+}
+
+#box6{
+ background-color: forestgreen;
+}
+
+#box7{
+ background-color: darkorchid;
+}
+
+
+#box8{
+ background-color: hotpink;
+}
+
+
+#box9{
+ background-color: indigo;
+}
+
+#box10{
+ background-color: dodgerblue;
+}
+
+/*Bottom content*/
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +198,70 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+/*About page styling*/
+
+.content-about{
+    margin: 20px;
+}
+
+.grid{
+    border-top: 2px dotted gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box-about{
+    padding: 30px 0;
+    height: 450px;
+    width: 375px;
+    border-bottom: 2px dotted gray;
+}
+
+.box-about h2 {
+    padding-top: 10px;
+}
+
+button{
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 6px 14px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Contact us page */
+
+.contact-img{
+    height: 150px;
+}
+
+.input-box{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px dotted gray;
+
+}
+
+form {
+    border: 2px solid gray;
+    padding: 60px;
+    background-color: #F1F1F1;
+    text-align: center;
+}
+
+form input{
+    margin: 20px 0;
+}
+
+
+
+/*Footer*/
 
 footer {
     width: 100%;
